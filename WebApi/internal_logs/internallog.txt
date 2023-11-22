@@ -1,0 +1,33 @@
+2023-11-22 09:45:23.2415 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-11-22 09:45:23.5467 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized element 'rules' in section 'targets'
+2023-11-22 09:45:23.6279 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-11-22 09:45:23.6522 Info Validating config: TargetNames=logfile, ConfigItems=11, FilePath=C:\Users\salih.durus\Desktop\dotnet101\bsStoreApp\WebApi\nlog.config
+2023-11-22 09:45:23.7286 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: logfile
+2023-11-22 09:45:23.7412 Info Configuration initialized.
+2023-11-22 09:46:05.9335 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-11-22 09:46:05.9335 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized element 'rules' in section 'targets'
+2023-11-22 09:46:05.9495 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-11-22 09:46:05.9632 Info Validating config: TargetNames=logfile, ConfigItems=11, FilePath=C:\Users\salih.durus\Desktop\dotnet101\bsStoreApp\WebApi\nlog.config
+2023-11-22 09:46:05.9632 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: logfile
+2023-11-22 09:46:05.9762 Info Configuration initialized.
+2023-11-22 09:50:12.1323 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-11-22 09:50:12.1422 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized element 'rules' in section 'targets'
+2023-11-22 09:50:12.1530 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-11-22 09:50:12.1692 Info Validating config: TargetNames=logfile, ConfigItems=11, FilePath=C:\Users\salih.durus\Desktop\dotnet101\bsStoreApp\WebApi\nlog.config
+2023-11-22 09:50:12.1692 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: logfile
+2023-11-22 09:50:12.1886 Info Configuration initialized.
+2023-11-22 09:50:20.9982 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-11-22 09:50:20.9982 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized element 'rules' in section 'targets'
+2023-11-22 09:50:21.0179 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-11-22 09:50:21.0326 Info Validating config: TargetNames=logfile, ConfigItems=11, FilePath=C:\Users\salih.durus\Desktop\dotnet101\bsStoreApp\WebApi\nlog.config
+2023-11-22 09:50:21.0326 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: logfile
+2023-11-22 09:50:21.0503 Info Configuration initialized.
+2023-11-22 09:54:13.1924 Info Configuration file change detected! Reloading in 1000ms...
+2023-11-22 09:54:16.2303 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-11-22 09:54:16.2781 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-11-22 09:54:16.3057 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\salih.durus\Desktop\dotnet101\bsStoreApp\WebApi\nlog.config
+2023-11-22 09:54:16.3250 Info Configuration initialized.
+2023-11-22 09:54:19.3638 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-11-22 09:54:19.3887 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-11-22 09:54:19.4061 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\salih.durus\Desktop\dotnet101\bsStoreApp\WebApi\nlog.config
+2023-11-22 09:54:19.4219 Info Configuration initialized.
