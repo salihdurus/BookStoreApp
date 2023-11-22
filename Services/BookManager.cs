@@ -1,4 +1,7 @@
-﻿using Entities.Models;
+﻿using AutoMapper;
+using Entities.DataTransferObjects;
+using Entities.Exceptions;
+using Entities.Models;
 using Repositories.Contracts;
 using Services.Contracts;
 using System;
@@ -13,10 +16,12 @@ namespace Services
     {
         private readonly IRepositoryManager manager;
         private readonly ILoggerService logger;
-        public BookManager(IRepositoryManager manager, ILoggerService logger)
+        private readonly IMapper mapper;
+        public BookManager(IRepositoryManager manager, ILoggerService logger, IMapper mapper)
         {
             this.manager = manager;
             this.logger = logger;
+            this.mapper = mapper;
         }
 
         public Book CreateOneBook(Book book)
@@ -33,11 +38,7 @@ namespace Services
         {
             var entity = manager.Book.GetOneBookById(id, trackChanges);
             if (entity is null)
-            {
-                string message = $"Book with id:{id} could not found.";
-                logger.LogInfo(message);
-                throw new Exception(message);
-            }
+                throw new BookNotFoundException(id);
             manager.Book.DeleteOneBook(entity);
             manager.Save();
         }
@@ -49,23 +50,19 @@ namespace Services
 
         public Book GetOneBookById(int id, bool trackChanges)
         {
-            return manager.Book.GetOneBookById(id, trackChanges);
+            var entity = manager.Book.GetOneBookById(id, trackChanges);
+            if (entity is null) throw new BookNotFoundException(id);
+            return entity;
         }
 
-        public void UpdateOneBook(int id, Book book, bool trackChanges)
+        public void UpdateOneBook(int id, BookDtoForUpdate bookDto, bool trackChanges)
         {
             var entity = manager.Book.GetOneBookById(id, trackChanges);
             if (entity is null)
-            {
-                string message = $"Book with id:{id} could not found.";
-                logger.LogInfo(message);
-                throw new Exception(message);
-            }
-            if (book is null)
-                throw new ArgumentNullException(nameof(book));
+                throw new BookNotFoundException(id);
 
-            entity.Title = book.Title;
-            entity.Price = book.Price;
+            //Mapping
+            entity = mapper.Map<Book>(bookDto);
 
             manager.Book.UpdateOneBook(entity);
             manager.Save();

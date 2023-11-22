@@ -52,3 +52,5 @@ C:\Users\salih.durus\Desktop\dotnet101\bsStoreApp\WebApi\bin\Debug\net6.0\Newton
 C:\Users\salih.durus\Desktop\dotnet101\bsStoreApp\WebApi\bin\Debug\net6.0\nlog.config
 C:\Users\salih.durus\Desktop\dotnet101\bsStoreApp\WebApi\bin\Debug\net6.0\NLog.dll
 C:\Users\salih.durus\Desktop\dotnet101\bsStoreApp\WebApi\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+C:\Users\salih.durus\Desktop\dotnet101\bsStoreApp\WebApi\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\salih.durus\Desktop\dotnet101\bsStoreApp\WebApi\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

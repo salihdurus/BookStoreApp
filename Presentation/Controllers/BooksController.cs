@@ -1,4 +1,6 @@
-﻿using Entities.Models;
+﻿using Entities.DataTransferObjects;
+using Entities.Exceptions;
+using Entities.Models;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using Services.Contracts;
@@ -31,9 +33,7 @@ namespace Presentation.Controllers
         [HttpGet("{id:int}")]
         public IActionResult GetOneBook([FromRoute(Name = "id")] int id)
         {
-            var entity = manager.BookService.GetOneBookById(id, false);
-            if (entity is null) return NotFound();
-            return Ok(entity);
+            return Ok(manager.BookService.GetOneBookById(id, false));
         }
 
         [HttpPost]
@@ -48,14 +48,14 @@ namespace Presentation.Controllers
         }
 
         [HttpPut("{id:int}")]
-        public IActionResult UpdateOneBook([FromRoute(Name = "id")] int id, [FromBody] Book book)
+        public IActionResult UpdateOneBook([FromRoute(Name = "id")] int id, [FromBody] BookDtoForUpdate bookDto)
         {
-            if (!id.Equals(book.Id))
+            if (!id.Equals(bookDto.Id))
                 return BadRequest();
-            if (book is null)
+            if (bookDto is null)
                 return BadRequest();
 
-            manager.BookService.UpdateOneBook(id, book, true);
+            manager.BookService.UpdateOneBook(id, bookDto, true);
             return NoContent();
         }
 
@@ -70,12 +70,10 @@ namespace Presentation.Controllers
         public IActionResult PartiallyUpdateOneBook([FromRoute(Name = "id")] int id, [FromBody] JsonPatchDocument<Book> bookPatch)
         {
             var entity = manager.BookService.GetOneBookById(id, true);
-            if (entity is null)
-            {
-                return NotFound();
-            }
             bookPatch.ApplyTo(entity);
-            manager.BookService.UpdateOneBook(id, entity, true);
+            manager.BookService.UpdateOneBook(id,
+                new BookDtoForUpdate(entity.Id, entity.Title, entity.Price),
+                true);
             return NoContent();
         }
     }
