@@ -137,3 +137,17 @@
 2023-11-23 14:49:15.2105 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
 2023-11-23 14:49:15.2324 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\salih.durus\Desktop\dotnet101\bsStoreApp\WebApi\nlog.config
 2023-11-23 14:49:15.2505 Info Configuration initialized.
+2023-11-23 17:36:59.7915 Info AppDomain Shutting down. LogFactory closing...
+2023-11-23 17:36:59.8275 Info LogFactory has been closed.
+2023-11-23 17:37:09.6836 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-11-23 17:37:09.7042 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-11-23 17:37:09.7188 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\salih.durus\Desktop\dotnet101\bsStoreApp\WebApi\nlog.config
+2023-11-23 17:37:09.7188 Info Configuration initialized.
+2023-11-24 15:33:56.6465 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-11-24 15:33:56.7125 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-11-24 15:33:56.7391 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\salih.durus\Desktop\dotnet101\bsStoreApp\WebApi\nlog.config
+2023-11-24 15:33:56.7637 Info Configuration initialized.
+2023-11-24 16:12:36.7313 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-11-24 16:12:36.8190 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-11-24 16:12:36.8544 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\salih.durus\Desktop\dotnet101\bsStoreApp\WebApi\nlog.config
+2023-11-24 16:12:36.9092 Info Configuration initialized.
