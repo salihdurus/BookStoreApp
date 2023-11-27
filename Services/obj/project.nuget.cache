@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "U2y0Cr9GJohUeQVEcDN2cSPgNFwk8IWeBPgfzC1C+6xHt7IvSGrRjQnfbdEL+SNGSZIz9bc5kw812FQAUGyhMQ==",
+  "dgSpecHash": "2u1ynh2HvdgnY8g2iQD6J9/1sZtp3EydjqgkzhjPVB1G0WsuiNPn3cQbawpOS5IiM5wDhpcVKfF1f37/7G256w==",
   "success": true,
   "projectFilePath": "C:\\Users\\salih.durus\\Desktop\\dotnet101\\bsStoreApp\\Services\\Services.csproj",
   "expectedPackageFiles": [
@@ -23,6 +23,7 @@
     "C:\\Users\\salih.durus\\.nuget\\packages\\nlog.extensions.logging\\5.3.5\\nlog.extensions.logging.5.3.5.nupkg.sha512",
     "C:\\Users\\salih.durus\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\salih.durus\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
+    "C:\\Users\\salih.durus\\.nuget\\packages\\system.linq.dynamic.core\\1.3.7\\system.linq.dynamic.core.1.3.7.nupkg.sha512",
     "C:\\Users\\salih.durus\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []

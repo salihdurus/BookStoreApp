@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "aV4wQzt70hfRqPj9SgMh1Wh9C5rkWmFFsy0rCaBLTjHMxpZcWCkMxxcIqfxoJB1c5aYFrixuQVbLDLogJ6Hsmg==",
+  "dgSpecHash": "qDkDFkLGqNvHr3W60hoLAP+4e9fQvrZiuh+dge1tHzOUG7oH0Y8LbfSCD0AxGJ+Ka8MzAxWJB0F3Bk8DST1y+A==",
   "success": true,
   "projectFilePath": "C:\\Users\\salih.durus\\Desktop\\dotnet101\\bsStoreApp\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
@@ -74,6 +74,7 @@
     "C:\\Users\\salih.durus\\.nuget\\packages\\system.io.filesystem\\4.0.1\\system.io.filesystem.4.0.1.nupkg.sha512",
     "C:\\Users\\salih.durus\\.nuget\\packages\\system.io.filesystem.primitives\\4.0.1\\system.io.filesystem.primitives.4.0.1.nupkg.sha512",
     "C:\\Users\\salih.durus\\.nuget\\packages\\system.linq\\4.1.0\\system.linq.4.1.0.nupkg.sha512",
+    "C:\\Users\\salih.durus\\.nuget\\packages\\system.linq.dynamic.core\\1.3.7\\system.linq.dynamic.core.1.3.7.nupkg.sha512",
     "C:\\Users\\salih.durus\\.nuget\\packages\\system.linq.expressions\\4.1.0\\system.linq.expressions.4.1.0.nupkg.sha512",
     "C:\\Users\\salih.durus\\.nuget\\packages\\system.objectmodel\\4.0.12\\system.objectmodel.4.0.12.nupkg.sha512",
     "C:\\Users\\salih.durus\\.nuget\\packages\\system.reflection\\4.1.0\\system.reflection.4.1.0.nupkg.sha512",

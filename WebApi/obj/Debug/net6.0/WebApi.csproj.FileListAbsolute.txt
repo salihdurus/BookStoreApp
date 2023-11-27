@@ -54,3 +54,4 @@ C:\Users\salih.durus\Desktop\dotnet101\bsStoreApp\WebApi\bin\Debug\net6.0\NLog.d
 C:\Users\salih.durus\Desktop\dotnet101\bsStoreApp\WebApi\bin\Debug\net6.0\NLog.Extensions.Logging.dll
 C:\Users\salih.durus\Desktop\dotnet101\bsStoreApp\WebApi\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\salih.durus\Desktop\dotnet101\bsStoreApp\WebApi\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\salih.durus\Desktop\dotnet101\bsStoreApp\WebApi\bin\Debug\net6.0\System.Linq.Dynamic.Core.dll
