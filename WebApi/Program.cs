@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using NLog;
 using Presentation.ActionFilters;
 using Repositories.EFCore;
+using Services;
 using Services.Contracts;
 using WebApi.Extensions;
 
@@ -17,10 +18,10 @@ builder.Services.AddControllers(config =>
     config.RespectBrowserAcceptHeader = true;
     config.ReturnHttpNotAcceptable = true;
 })
-    //.AddCustomCsvFormatter()
-    //.AddXmlDataContractSerializerFormatters()
-    .AddApplicationPart(typeof(Presentation.AssemblyReference).Assembly)
-    .AddNewtonsoftJson();
+    .AddXmlDataContractSerializerFormatters()
+    .AddCustomCsvFormatter()
+    .AddApplicationPart(typeof(Presentation.AssemblyReference).Assembly);
+    //.AddNewtonsoftJson();
 builder.Services.Configure<ApiBehaviorOptions>(options =>
 {
     options.SuppressModelStateInvalidFilter = true;
@@ -37,6 +38,8 @@ builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.ConfigureActionFilters();
 builder.Services.ConfigureCors();
 builder.Services.ConfigureDataShapper();
+builder.Services.AddScoped<IBookLinks, BookLinks>();
+builder.Services.AddCustomMediaTypes();
 
 var app = builder.Build();
 var logger = app.Services.GetRequiredService<ILoggerService>();
