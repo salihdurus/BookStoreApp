@@ -24,3 +24,7 @@
 2023-12-05 16:04:16.6360 INFO {"ModelName":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreatedAt":"2023-12-05T13:04:16.618091Z"}
 2023-12-05 16:06:53.0940 INFO {"ModelName":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreatedAt":"2023-12-05T13:06:53.0647317Z"}
 2023-12-05 16:14:54.7567 INFO {"ModelName":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreatedAt":"2023-12-05T13:14:54.743664Z"}
+2023-12-05 16:25:09.6001 INFO {"ModelName":"OnActionExecuting","Controller":"Books","Action":"GetBookOptions","Id":null,"CreatedAt":"2023-12-05T13:25:09.5844948Z"}
+2023-12-05 16:25:49.2796 INFO {"ModelName":"OnActionExecuting","Controller":"Books","Action":"GetBookOptions","Id":null,"CreatedAt":"2023-12-05T13:25:49.2794376Z"}
+2023-12-05 16:28:36.4745 INFO {"ModelName":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreatedAt":"2023-12-05T13:28:36.4589071Z"}
+2023-12-05 16:28:48.6899 INFO {"ModelName":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreatedAt":"2023-12-05T13:28:48.6899087Z"}

@@ -27,7 +27,8 @@ namespace Presentation.Controllers
             this.manager = manager;
         }
 
-        [HttpGet]
+        [HttpHead]
+        [HttpGet(Name = "GetAllBooksAsync")]
         [ServiceFilter(typeof(ValidateMediaTypeAttribute))]
         public async Task<IActionResult> GetAllBooksAsync([FromQuery] BookParameters bookParameters)
         {
@@ -39,7 +40,7 @@ namespace Presentation.Controllers
             var result = await manager.BookService.GetAllBooksAsync(linkParameters, false);
             Response.Headers.Add("X-Pagination", JsonSerializer.Serialize(result.metaData));
 
-            return result.linkResponse.HasLinks ? 
+            return result.linkResponse.HasLinks ?
                 Ok(result.linkResponse.LinkedEntites) :
                 Ok(result.linkResponse.ShapedEntities);
         }
@@ -51,7 +52,7 @@ namespace Presentation.Controllers
         }
 
         [ServiceFilter(typeof(ValidationFilterAttribute))]
-        [HttpPost]
+        [HttpPost(Name = "CreateOneBookAsync")]
         public async Task<IActionResult> CreateOneBookAsync([FromBody] BookDtoForInsertion bookDto)
         {
             var book = await manager.BookService.CreateOneBookAsync(bookDto);
@@ -91,6 +92,13 @@ namespace Presentation.Controllers
             await manager.BookService.SaveChangesForPatchAsync(result.bookDtoForUpdate, result.book);
 
             return NoContent();
+        }
+
+        [HttpOptions]
+        public IActionResult GetBookOptions()
+        {
+            Response.Headers.Add("Allow", "GET, PUT, POST, PATCH, DELETE, HEAD, OPTIONS");
+            return Ok();
         }
     }
 }
