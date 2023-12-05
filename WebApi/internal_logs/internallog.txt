@@ -167,3 +167,15 @@
 2023-11-27 13:55:43.9568 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
 2023-11-27 13:55:43.9932 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\salih.durus\Desktop\dotnet101\bsStoreApp\WebApi\nlog.config
 2023-11-27 13:55:44.0799 Info Configuration initialized.
+2023-12-05 11:20:22.0289 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-12-05 11:20:22.0837 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-12-05 11:20:22.1126 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\salih.durus\Desktop\dotnet101\bsStoreApp\WebApi\nlog.config
+2023-12-05 11:20:22.1421 Info Configuration initialized.
+2023-12-05 11:24:07.0742 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-12-05 11:24:07.3841 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-12-05 11:24:07.4425 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\salih.durus\Desktop\dotnet101\bsStoreApp\WebApi\nlog.config
+2023-12-05 11:24:07.5220 Info Configuration initialized.
+2023-12-05 11:24:38.0747 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-12-05 11:24:38.2927 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-12-05 11:24:38.3759 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\salih.durus\Desktop\dotnet101\bsStoreApp\WebApi\nlog.config
+2023-12-05 11:24:38.4503 Info Configuration initialized.
