@@ -9,7 +9,7 @@ using Services;
 using Services.Contracts;
 using Microsoft.AspNetCore.Mvc.Versioning;
 using Presentation.Controllers;
-
+using Marvin.Cache.Headers;
 namespace WebApi.Extensions
 {
     public static class ServicesExtensions
@@ -85,8 +85,24 @@ namespace WebApi.Extensions
                 opt.AssumeDefaultVersionWhenUnspecified = true;
                 opt.DefaultApiVersion = new ApiVersion(1, 0);
                 opt.ApiVersionReader = new HeaderApiVersionReader("api-version");
-                opt.Conventions.Controller<BooksController>().HasApiVersion(new ApiVersion(1,0));
-                opt.Conventions.Controller<BooksV2Controller>().HasDeprecatedApiVersion(new ApiVersion(2,0));
+                opt.Conventions.Controller<BooksController>().HasApiVersion(new ApiVersion(1, 0));
+                opt.Conventions.Controller<BooksV2Controller>().HasDeprecatedApiVersion(new ApiVersion(2, 0));
+            });
+        }
+
+        public static void ConfigureResponseCaching(this IServiceCollection services) { services.AddResponseCaching(); }
+
+        public static void ConfigureHttpCacheHeaders(this IServiceCollection services)
+        {
+            // Caching alternatives -varnish, -Apache Traffic Server, -Squid, -CDN
+            services.AddHttpCacheHeaders(expirationOpt =>
+            {
+                expirationOpt.MaxAge = 90;
+                expirationOpt.CacheLocation = CacheLocation.Public;
+            },
+            validationOpt =>
+            {
+                validationOpt.MustRevalidate = false;
             });
         }
     }

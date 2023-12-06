@@ -56,3 +56,7 @@ C:\Users\salih.durus\Desktop\dotnet101\bsStoreApp\WebApi\bin\Debug\net6.0\AutoMa
 C:\Users\salih.durus\Desktop\dotnet101\bsStoreApp\WebApi\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\salih.durus\Desktop\dotnet101\bsStoreApp\WebApi\bin\Debug\net6.0\System.Linq.Dynamic.Core.dll
 C:\Users\salih.durus\Desktop\dotnet101\bsStoreApp\WebApi\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+C:\Users\salih.durus\Desktop\dotnet101\bsStoreApp\WebApi\bin\Debug\net6.0\Marvin.Cache.Headers.dll
+C:\Users\salih.durus\Desktop\dotnet101\bsStoreApp\WebApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\salih.durus\Desktop\dotnet101\bsStoreApp\WebApi\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\salih.durus\Desktop\dotnet101\bsStoreApp\WebApi\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
