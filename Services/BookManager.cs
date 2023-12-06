@@ -58,6 +58,12 @@ namespace Services
             return (links, booksWithMetaData.MetaData);
         }
 
+        public Task<List<Book>> GetAllBooksAsync(bool trackChanges)
+        {
+            var books = manager.Book.GetAllBooksAsync(trackChanges);
+            return books;
+        }
+
         public async Task<BookDto> GetOneBookByIdAsync(int id, bool trackChanges)
         {
             var entity = await GetOneBookByIdAndCheckExists(id, trackChanges);

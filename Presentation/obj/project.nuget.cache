@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "v1KpIwiusZwk/fM7dzNJFAGQ25oH8xqbZx4jEuGgI6WM2owNkVhWGpMAx46E2CDtg29I0VX8HlBnYzSlmHYPqw==",
+  "dgSpecHash": "NNPBA+acmFPciBGZ+sP0LNgUYZgN+gTkpisKI6vu1t71RnO8MjeTU3IUSyoPGlxAM0UV25dvbjV4S9zS9DDc/Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\salih.durus\\Desktop\\dotnet101\\bsStoreApp\\Presentation\\Presentation.csproj",
   "expectedPackageFiles": [
@@ -20,6 +20,7 @@
     "C:\\Users\\salih.durus\\.nuget\\packages\\microsoft.aspnetcore.mvc.abstractions\\2.2.0\\microsoft.aspnetcore.mvc.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\salih.durus\\.nuget\\packages\\microsoft.aspnetcore.mvc.core\\2.2.5\\microsoft.aspnetcore.mvc.core.2.2.5.nupkg.sha512",
     "C:\\Users\\salih.durus\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\6.0.25\\microsoft.aspnetcore.mvc.newtonsoftjson.6.0.25.nupkg.sha512",
+    "C:\\Users\\salih.durus\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.1.0\\microsoft.aspnetcore.mvc.versioning.5.1.0.nupkg.sha512",
     "C:\\Users\\salih.durus\\.nuget\\packages\\microsoft.aspnetcore.responsecaching.abstractions\\2.2.0\\microsoft.aspnetcore.responsecaching.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\salih.durus\\.nuget\\packages\\microsoft.aspnetcore.routing\\2.2.0\\microsoft.aspnetcore.routing.2.2.0.nupkg.sha512",
     "C:\\Users\\salih.durus\\.nuget\\packages\\microsoft.aspnetcore.routing.abstractions\\2.2.0\\microsoft.aspnetcore.routing.abstractions.2.2.0.nupkg.sha512",
