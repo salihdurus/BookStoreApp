@@ -10,3 +10,4 @@ C:\Users\salih.durus\Desktop\dotnet101\bsStoreApp\Entities\obj\Debug\net6.0\Enti
 C:\Users\salih.durus\Desktop\dotnet101\bsStoreApp\Entities\obj\Debug\net6.0\refint\Entities.dll
 C:\Users\salih.durus\Desktop\dotnet101\bsStoreApp\Entities\obj\Debug\net6.0\Entities.pdb
 C:\Users\salih.durus\Desktop\dotnet101\bsStoreApp\Entities\obj\Debug\net6.0\ref\Entities.dll
+C:\Users\salih.durus\Desktop\dotnet101\bsStoreApp\Entities\obj\Debug\net6.0\Entities.sourcelink.json

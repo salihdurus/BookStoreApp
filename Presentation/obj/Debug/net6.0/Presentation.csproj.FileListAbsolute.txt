@@ -17,3 +17,4 @@ C:\Users\salih.durus\Desktop\dotnet101\bsStoreApp\Presentation\obj\Debug\net6.0\
 C:\Users\salih.durus\Desktop\dotnet101\bsStoreApp\Presentation\obj\Debug\net6.0\refint\Presentation.dll
 C:\Users\salih.durus\Desktop\dotnet101\bsStoreApp\Presentation\obj\Debug\net6.0\Presentation.pdb
 C:\Users\salih.durus\Desktop\dotnet101\bsStoreApp\Presentation\obj\Debug\net6.0\ref\Presentation.dll
+C:\Users\salih.durus\Desktop\dotnet101\bsStoreApp\Presentation\obj\Debug\net6.0\Presentation.sourcelink.json
